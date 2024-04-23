@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Jersey+10&family=Permanent+Marker&display=swap');
+
+body {
+  font-family: 'ubuntu';
+  background-image:url('img_fondo.jpeg');
+	text-align: center;
+	background-position: center center;
+	background-size: 1600px;
+	background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+  
+   
+  }
+  
+  .app {
+    padding: 10px;
+  }
+  
+  .box {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: auto;
+  padding: 7px;
+  color:#050505;
+  text-shadow: #090909;
+  font-size: 30px;
+  
+}
+
+h3 {
+  color: rgb(80, 77, 77); 
+  font-family: 'ubuntu';
+  text-align: center;
+  padding: auto;
+  font-size: 20px;
+  margin-top: auto;
+  font-style: italic;
+}
+
+h4 {
+  color: rgb(80, 77, 77);
+  text-align: center;
+  padding: auto;
+  font-size: 15px;
+  margin-top: auto;
+  line-height: 1.5;
+  font-style: bold;
+  font-family: 'ubuntu'
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 15px;
+  font-size: 20px;
+  width: 250px;
+  border: 2px solid rgb(3, 2, 2);
+  font-family: 'Anonymous Pro';
+  
+}
+   
+#guess-button {
+  display:block;
+  margin:0 auto 10px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(178, 114, 180);
+  color: #090909;
+  border-radius: 3px;
+  font-family: 'ubuntu';
+  font-weight: bold;
+  text-align: center;
+}
+   
+button:active {
+    transform: scale(0.95);
+}
+   
+.letter {
+    border: 1px solid; 
+    padding: 5px;
+    margin: 5px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    font-family: 'Anonymous Pro';
+    
+}
+
+.letter-titulo-1 {
+  padding: 15px;
+  min-width: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #1f457d;
+  color: white;
+  width: 10px;
+  margin-top: 10px;
+  font-family: 'Anonymous Pro';
+  font-style: bold;
+}
+.letter-titulo-2 {
+padding: 15px;
+min-width: 30px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+background-color: #7A7975;
+color: white;
+width: 10px;
+font-family: 'Anonymous Pro';
+font-style: bold;
+}
+
+.letter-titulo-3 {
+padding: 15px;
+min-width: 30px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+background-color: rgb(211, 107, 9);
+color: white;
+width: 10px;
+font-family: 'Anonymous Pro';
+}
+.letter-titulo-4 {
+padding: 15px;
+min-width: 30px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+background-color: #7A7975;
+color: white;
+width: 10px;
+font-family: 'Anonymous Pro';
+font-style: bold;
+}
+.letter-titulo-5 {
+padding: 15px;
+min-width: 30px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+background-color:  #1f457d;
+color: white;
+width: 10px;
+font-family: 'Anonymous Pro';
+font-style: bold;
+}
+
+.letter-titulo-6 {
+padding: 15px;
+min-width: 20px;
+text-align: center;
+display: inline-block;
+font-size: 30px;
+background-color: rgb(211, 107, 9);
+color: white;
+width: 10px;
+font-family: 'Anonymous Pro';
+font-style: bold;
+}
+
+.letter-titulo-7 {
+  padding: 15px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #af2465;
+  color: white;
+  width: 10px;
+  font-family: 'Anonymous Pro';
+  font-style: bold;
+  }
+
+.letter-titulo-8 {
+    padding: 15px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    background-color: #7A7975;
+    color: white;
+    width: 10px;
+    font-family: 'Anonymous Pro';
+    font-style: bold;
+  }
+.letter-titulo-9 {
+      padding: 15px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 30px;
+      background-color: rgb(211, 107, 9);
+      color: white;
+      width: 10px;
+      font-family: 'Anonymous Pro';
+      font-style: bold;
+  } 
+
+.letter-titulo-10 {
+        padding: 15px;
+        min-width: 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 30px;
+        background-color: #af2465;
+        color: white;
+        width: 10px;
+        font-family: 'Anonymous Pro';
+        font-style: bold;
+  }
+
+
+.row.titulo-1{
+  margin-bottom: 10px;
+  border-radius: 40px;
+  text-align: center;
+}  
+
+.row.titulo-2{
+  margin-bottom: 10px;
+  border-radius: 40px;
+  text-align: center;
+ 
+}  
+
+.row{
+    margin-bottom: 10px;
+    border-radius: 40px;
+    text-align: center;
+
+}
+   
+.input-area{
+    margin: 30px;
+
+}
+
+.grid{
+  padding: 10px;
+}
+
+
